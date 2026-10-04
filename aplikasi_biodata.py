@@ -80,7 +80,7 @@ class AplikasiBiodata(tk.Tk):
     def __init__(self):
         super().__init__()
         self.title("Aplikasi Biodata Mahasiswa")
-        self.geometry("720x820")
+        self.geometry("600x820")
         self.resizable(True, True)
 
         # Database user sederhana (dalam aplikasi nyata, ini akan di database)
